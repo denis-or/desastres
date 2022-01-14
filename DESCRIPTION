@@ -4,6 +4,8 @@ Version: 0.0.0.9000
 Authors@R: 
     person("Denis", "Rodrigues", , "catoper@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
+Date: 2022-01-14
+URL: https://denis-or.com.br
 Description: Testando github actions.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
@@ -16,4 +18,7 @@ Imports:
     httr,
     purrr,
     sf,
-    stringr
+    stringr,
+    pkgload,
+    rvest,
+    xml2
