@@ -52,10 +52,7 @@ jobs:
           pak::local_install(".")
         shell: Rscript {0}
 
-      - name: Install munfacil
-        run: |
-          pak::local_install("curso-r/munifacil")
-        shell: Rscript {0}
+
 
       - name: Execute Script
         run: |
