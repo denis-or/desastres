@@ -1,14 +1,19 @@
 Package: desastres
-Title: Testando github actions
+Title: Base de dados sobre desastres em Minas Gerais, Brasil.
 Version: 0.0.0.9000
 Authors@R: 
-    person("Denis", "Rodrigues", , "catoper@gmail.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+    person(given = "Denis",
+           family = "Rodrigues",
+           role = c("aut", "cre"),
+           email = "catoper@gmail.com",
+           comment = c(ORCID = "0000-0003-3748-876X"))
 Date: 2022-01-14
 URL: https://denis-or.com.br
-Description: Testando github actions.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+BugReports: https://github.com/denis-or/desastres/issues
+Description: Este pacote disponibiliza uma base de dados sobre os
+    desastres decretados pelos municípios de Minas Gerais e registrados na Defesa Civil Estadual.
+    Dados obtidos através do boletim atualizado no site da Defesa Civil.
+License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2

@@ -8,14 +8,12 @@ silence_pls <- function(code){
 
 scrape_disaster <- function(u){
 
-
-
   user <- 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36'
 
   r <- httr::GET(u, httr::user_agent(user))
 
   tabelas <- httr::content(r) |>
-    xml2::xml_find_all("//table")|>
+    xml2::xml_find_all("//table") |>
     rvest::html_table()
 
   tabela <- tabelas[[3]]
@@ -25,9 +23,6 @@ scrape_disaster <- function(u){
   colnames(tabela) <- c("ordem","data_entrada","municipio","decreto_nr","decreto_data",
                         "decreto_vigencia","vencimento","tipo","desastre")
 
-
-  cont_minas <- silence_pls(geobr::read_state("MG") |>
-                               sf::st_transform(crs = sf::st_crs(4326)))
 
   coords <- silence_pls(
     geobr::read_municipal_seat() |>
@@ -63,7 +58,6 @@ scrape_disaster <- function(u){
                   )),
                   image_df = paste0("images/",tolower(substr(icon_df, 1, 4)),".png")
     ) |>
-    # dplyr::filter(substr(decreto_data, 7, 10) == '2022') |>
     dplyr::select(1:9,26:29) |>
     dplyr::filter(icon_df != "Tempestade",
                   icon_df != "Seca")
@@ -118,6 +112,12 @@ scrape_disaster <- function(u){
                   tipo, desastre, lat, lon, icon_df, image_df)
 
   tab_comp_c <- rbind(tab_comp_c, tabela_temp_c, tabela_temp_c2)
+
+  tab_comp_c$dt_atu <- httr::content(r) |>
+    xml2::xml_find_all(xpath = ".//p") |>
+    rvest::html_text() |>
+    {\(x) grep("Atualização", x, value = TRUE)}() |>
+    {\(x) regmatches(x, regexpr("[^'em ']*$", x))}()
 
   tab_comp_c
 

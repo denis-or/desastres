@@ -1,11 +1,37 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# desastres
+## Base de dados de desastres de Minas Gerais
 
-<!-- badges: start -->
-<!-- badges: end -->
+O objetivo deste pacote é disponibilizar uma base de dados de desastres
+nos municípios de Minas Gerais, com decreto em vigência e registrados na
+Defesa Civil Estadual.
 
-Testes github actions
+Os dados são obtidos através da técnica de *webscraping* da página da
+[Defesa Civil](http://www.defesacivil.mg.gov.br/).
 
-:wink:
+É possível **fazer download da base de dados** pelo link:
+
+-   [Arquivo
+    `.csv`](https://raw.githubusercontent.com/denis-or/desastres/master/inst/df_disaster.csv)
+
+### Mapa dos desastres
+
+É possível visualizar os dados baixados através do seguinte link:
+
+[App desastres (shinyapp)](https://denis-or.shinyapps.io/desastres/)
+
+### Erros e dúvidas
+
+Para informar erros e manifestar alguma dúvida sobre os dados, abra uma
+*issue* no Github seguindo o link:
+
+[Erros e dúvidas](https://github.com/denis-or/desastres/issues)
+
+### Autor
+
+Denis de Oliveira Rodrigues, Mestre em Epidemiologia em Saúde Pública,
+graduado em Geografia pela Universidade Federal de Alfenas - UNIFAL-MG
+(2015) e em Tecnologia de Gestão Pública pela Faculdade de Curitiba -
+Uninter (2008). Atualmente é Doutorando em Epidemiologia em Saúde
+Pública pela Escola Nacional de Saúde Pública - ENSP/FIOCRUZ.

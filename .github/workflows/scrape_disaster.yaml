@@ -52,8 +52,6 @@ jobs:
           pak::local_install(".")
         shell: Rscript {0}
 
-
-
       - name: Execute Script
         run: |
           Rscript "inst/scrape_disaster.R"
