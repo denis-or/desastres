@@ -54,7 +54,7 @@ scrape_disaster <- function(u){
           stringr::str_detect(desastre, "TEMPESTADE") ~ "Tempestade",
           stringr::str_detect(desastre, "DOENÇA") ~ "Doenca"
         )),
-        image_df = paste0("images/",tolower(substr(icon_df, 1, 4)),".png")
+        image_df = paste0("images/", tolower(substr(icon_df, 1, 4)), ".png")
       ) |>
       subset(,
              c(

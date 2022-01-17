@@ -19,11 +19,10 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
 Imports: 
     dplyr,
-    geobr,
     httr,
-    purrr,
+    rvest,
+    xml2,
     sf,
     stringr,
-    pkgload,
-    rvest,
-    xml2
+    pkgload
+
