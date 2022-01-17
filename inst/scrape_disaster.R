@@ -1,5 +1,6 @@
-# Carregar pacote
+# Carregar pacotes
 pkgload::load_all()
+
 pak::pkg_install("curso-r/munifacil")
 
 df_disaster <- desastres::get_data_disaster()

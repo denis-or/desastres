@@ -170,5 +170,3 @@ get_data_disaster <- function() {
 
 }
 
-df <- get_data_disaster()
-
