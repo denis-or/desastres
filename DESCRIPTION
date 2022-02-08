@@ -22,7 +22,6 @@ Imports:
     httr,
     rvest,
     xml2,
-    sf,
     stringr,
     pkgload
 

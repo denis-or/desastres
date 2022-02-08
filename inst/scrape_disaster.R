@@ -10,7 +10,7 @@ write.csv(df_disaster, "inst/df_disaster.csv")
 
 # escrever a mensagem de commit
 commit_message <-
-  paste0("[GitHub Actions] Base atualizada em ", Sys.time())
+  paste0("Base de desastres em MG atualizada em ", Sys.time())
 
 # salvar a mensagem de commit
 writeLines(commit_message, "mensagem-comit.txt")
