@@ -10,8 +10,8 @@ scrape_disaster <- function(u){
 
   user <- 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36'
 
-  r <- httr::GET(u, httr::user_agent(user), httr::timeout(20))
-
+  r <- httr::GET(u, httr::user_agent(user),  httr::config(connecttimeout = 60))
+  #
   if(r$status_code != 200) {
     stop("Erro de conexão com o site da Defesa Civil.")
   }
