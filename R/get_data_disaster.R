@@ -149,12 +149,26 @@ scrape_disaster <- function(u){
 
   tab_comp_c <- rbind(tab_comp_c, tabela_temp_c, tabela_temp_c2)
 
+  format_date_atu <- function(string){
+
+    inicio <- stringr::str_locate(string, "em")[2]+1
+    fim <- stringr::str_length(string)
+
+    txt <- stringr::str_sub(string, inicio, fim) |>
+      stringr::str_squish() |>
+      stringr::str_remove_all("[:punct:]")
+
+    txt <- format(as.Date(txt, "%d%b%Y"), format = "%d de %B %Y")
+
+    txt
+  }
+
 
   tab_comp_c$dt_atu <- httr::content(r) |>
     xml2::xml_find_all(xpath = ".//p") |>
     rvest::html_text() |>
     {\(x) grep("Atualização", x, value = TRUE)}() |>
-    {\(x) regmatches(x, regexpr("[^'em ']*$", x))}()
+    format_date_atu()
 
   tab_comp_c
 
