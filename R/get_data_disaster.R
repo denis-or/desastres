@@ -16,6 +16,8 @@ scrape_disaster <- function(u){
     stop("Erro de conexão com o site da Defesa Civil.")
   }
 
+  Sys.setlocale("LC_TIME","pt_BR.UTF-8")
+
   dt_atu <- httr::content(r) |>
     xml2::xml_find_all(xpath = "//p") |>
     xml2::xml_text() |>
