@@ -196,7 +196,7 @@ get_data_disaster <- function() {
 
   ux <- 'http://www.defesacivil.mg.gov.br/index.php?option=com_content&view=article&id=14'
 
-  df_disaster <- desastres::scrape_disaster(u = ux)
+  df_disaster <- scrape_disaster(u = ux)
 
   df_disaster
 

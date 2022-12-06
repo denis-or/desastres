@@ -3,7 +3,7 @@ pkgload::load_all()
 
 pak::pkg_install("curso-r/munifacil")
 
-df_disaster <- desastres::get_data_disaster()
+df_disaster <- get_data_disaster()
 
 # exportar csv
 write.csv(df_disaster, "inst/df_disaster.csv")
