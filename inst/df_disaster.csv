@@ -44,153 +44,153 @@
 "43","43","01/12/2022","Almenara","505","29/11/2022","180","28/05/2023","TEMPESTADE LOCAL CONVECTIVA - CHUVAS INTENSAS",-16.0910436877635,-40.7238344687858,"Tempestade","images/temp.png",NA
 "44","44","01/12/2022","São Domingos do Prata","161","29/11/2022","180","27/05/2023","TEMPESTADE LOCAL CONVECTIVA - CHUVAS INTENSAS",-19.9030242283921,-42.9032252048024,"Tempestade","images/temp.png",NA
 "45","45","02/12/2022","Ouro Verde de Minas","57","24/11/2022","180","23/05/2023","TEMPESTADE LOCAL CONVECTIVA - CHUVAS INTENSAS",-18.0485184646423,-41.2963177179533,"Tempestade","images/temp.png",NA
-"46","1","06/01/2022","Águas Vermelhas",NA,NA,NA,NA,"SECA",-15.6831089050979,-41.5215074499224,"Seca","images/seca.png",NA
-"47","2","06/01/2022","Almenara",NA,NA,NA,NA,"SECA",-16.0910436877635,-40.7238344687858,"Seca","images/seca.png",NA
-"48","3","06/01/2022","Araçuaí",NA,NA,NA,NA,"SECA",-16.9307203278684,-41.9931504640464,"Seca","images/seca.png",NA
-"49","4","06/01/2022","Aricanduva",NA,NA,NA,NA,"SECA",-17.8810889366177,-42.6055704012118,"Seca","images/seca.png",NA
-"50","5","06/01/2022","Arinos",NA,NA,NA,NA,"SECA",-15.7505588438045,-45.9884569083532,"Seca","images/seca.png",NA
-"51","6","06/01/2022","Augusto de Lima",NA,NA,NA,NA,"SECA",-18.1088662075512,-44.1980373313386,"Seca","images/seca.png",NA
-"52","7","06/01/2022","Bandeira",NA,NA,NA,NA,"SECA",-15.8776760732068,-40.580972810709,"Seca","images/seca.png",NA
-"53","8","06/01/2022","Berilo",NA,NA,NA,NA,"SECA",-16.8623408370312,-42.4943159398051,"Seca","images/seca.png",NA
-"54","9","06/01/2022","Berizal",NA,NA,NA,NA,"SECA",-15.6841181363946,-41.7617631867336,"Seca","images/seca.png",NA
-"55","10","06/01/2022","Bocaiúva",NA,NA,NA,NA,"SECA",-17.2896346655127,-43.6864389395857,"Seca","images/seca.png",NA
-"56","11","06/01/2022","Bonito de Minas",NA,NA,NA,NA,"SECA",-14.9925592847151,-44.8968524332643,"Seca","images/seca.png",NA
-"57","12","06/01/2022","Botumirim",NA,NA,NA,NA,"SECA",-16.9377945647968,-43.005641372599,"Seca","images/seca.png",NA
-"58","13","06/01/2022","Brasilia de Minas",NA,NA,NA,NA,"SECA",-16.2426487714101,-44.4390512771039,"Seca","images/seca.png",NA
-"59","14","06/01/2022","Buenópolis",NA,NA,NA,NA,"SECA",-17.8805189929525,-44.0413340209571,"Seca","images/seca.png",NA
-"60","15","06/01/2022","Buritizeiro",NA,NA,NA,NA,"SECA",-17.285520826019,-45.1916690740869,"Seca","images/seca.png",NA
-"61","16","06/01/2022","Cachoeira de Pajeú",NA,NA,NA,NA,"SECA",-15.968511019161,-41.4979461244774,"Seca","images/seca.png",NA
-"62","17","06/01/2022","Campo Azul",NA,NA,NA,NA,"SECA",-16.5087530511007,-44.7632987327088,"Seca","images/seca.png",NA
-"63","18","06/01/2022","Capelinha",NA,NA,NA,NA,"SECA",-17.6928414853266,-42.4919686616897,"Seca","images/seca.png",NA
-"64","19","06/01/2022","Capitão Enéas",NA,NA,NA,NA,"SECA",-16.1361568497292,-43.6646044586672,"Seca","images/seca.png",NA
-"65","20","06/01/2022","Caraí",NA,NA,NA,NA,"SECA",-17.173607037654,-41.5835642076187,"Seca","images/seca.png",NA
-"66","21","06/01/2022","Carbonita",NA,NA,NA,NA,"SECA",-17.494090615756,-43.0577091257688,"Seca","images/seca.png",NA
-"67","22","06/01/2022","Catuti",NA,NA,NA,NA,"SECA",-15.3356473238316,-43.0974274671784,"Seca","images/seca.png",NA
-"68","23","06/01/2022","Chapada do Norte",NA,NA,NA,NA,"SECA",-17.147367662855,-42.4123072803022,"Seca","images/seca.png",NA
-"69","24","06/01/2022","Chapada Gaúcha",NA,NA,NA,NA,"SECA",-15.4692036608162,-45.4587517731863,"Seca","images/seca.png",NA
-"70","25","06/01/2022","Claro dos Poções",NA,NA,NA,NA,"SECA",-17.0686510479215,-44.2281083727901,"Seca","images/seca.png",NA
-"71","26","06/01/2022","Cônego Marinho",NA,NA,NA,NA,"SECA",-14.9844636910476,-44.5965271315879,"Seca","images/seca.png",NA
-"72","27","06/01/2022","Coração de Jesus",NA,NA,NA,NA,"SECA",-16.6131939919835,-44.3786266387251,"Seca","images/seca.png",NA
-"73","28","06/01/2022","Corinto",NA,NA,NA,NA,"SECA",-18.3354014682448,-44.6174645114493,"Seca","images/seca.png",NA
-"74","29","06/01/2022","Coronel Murta",NA,NA,NA,NA,"SECA",-16.5912663378398,-42.1763014832706,"Seca","images/seca.png",NA
-"75","30","06/01/2022","Crisólita",NA,NA,NA,NA,"SECA",-17.2401182578123,-40.9614891843935,"Seca","images/seca.png",NA
-"76","31","06/01/2022","Cristália",NA,NA,NA,NA,"SECA",-16.7186244059586,-42.8210204619752,"Seca","images/seca.png",NA
-"77","32","06/01/2022","Curral de Dentro",NA,NA,NA,NA,"SECA",-15.8617806975143,-41.7648113042943,"Seca","images/seca.png",NA
-"78","33","06/01/2022","Divisa Alegre",NA,NA,NA,NA,"SECA",-15.6986672414772,-41.3740718550105,"Seca","images/seca.png",NA
-"79","34","06/01/2022","Divisópolis",NA,NA,NA,NA,"SECA",-15.7628970744443,-40.9123229834827,"Seca","images/seca.png",NA
-"80","35","06/01/2022","Engenheiro Navarro",NA,NA,NA,NA,"SECA",-17.296484572148,-44.0140379939444,"Seca","images/seca.png",NA
-"81","36","06/01/2022","Espinosa",NA,NA,NA,NA,"SECA",-14.8590717037043,-42.9660132702439,"Seca","images/seca.png",NA
-"82","37","06/01/2022","Felisburgo",NA,NA,NA,NA,"SECA",-16.636034683388,-40.7331588243818,"Seca","images/seca.png",NA
-"83","38","06/01/2022","Formoso",NA,NA,NA,NA,"SECA",-15.1296697853309,-46.1586977497064,"Seca","images/seca.png",NA
-"84","39","06/01/2022","Francisco Badaró",NA,NA,NA,NA,"SECA",-16.9776162419786,-42.3098232709388,"Seca","images/seca.png",NA
-"85","40","06/01/2022","Francisco Dumont",NA,NA,NA,NA,"SECA",-17.4697453815114,-44.2698278761709,"Seca","images/seca.png",NA
-"86","41","06/01/2022","Francisco Sá",NA,NA,NA,NA,"SECA",-16.3936036633069,-43.4788304831152,"Seca","images/seca.png",NA
-"87","42","06/01/2022","Franciscópolis",NA,NA,NA,NA,"SECA",-17.9933235543119,-41.9679201662665,"Seca","images/seca.png",NA
-"88","43","06/01/2022","Fruta de Leite",NA,NA,NA,NA,"SECA",-16.1255766238541,-42.5199783169786,"Seca","images/seca.png",NA
-"89","44","06/01/2022","Gameleiras",NA,NA,NA,NA,"SECA",-14.9710336869202,-43.2597275704929,"Seca","images/seca.png",NA
-"90","45","06/01/2022","Glaucilândia",NA,NA,NA,NA,"SECA",-16.9038544037521,-43.6392834952913,"Seca","images/seca.png",NA
-"91","46","06/01/2022","Gouveia",NA,NA,NA,NA,"SECA",-18.5235065217889,-43.8334469546759,"Seca","images/seca.png",NA
-"92","47","06/01/2022","Grão Mogol",NA,NA,NA,NA,"SECA",-16.4639155437007,-42.9938885489663,"Seca","images/seca.png",NA
-"93","48","06/01/2022","Guaraciama",NA,NA,NA,NA,"SECA",-17.0785054627747,-43.6206313715531,"Seca","images/seca.png",NA
-"94","49","06/01/2022","Ibiaí",NA,NA,NA,NA,"SECA",-16.828769364944,-44.7902512301987,"Seca","images/seca.png",NA
-"95","50","06/01/2022","Ibiracatu",NA,NA,NA,NA,"SECA",-15.696831964409,-44.1449047847416,"Seca","images/seca.png",NA
-"96","51","06/01/2022","Icaraí de Minas",NA,NA,NA,NA,"SECA",-16.2251309203843,-44.9163567069221,"Seca","images/seca.png",NA
-"97","52","06/01/2022","Indaiabira",NA,NA,NA,NA,"SECA",-15.5621855670506,-42.14296064552,"Seca","images/seca.png",NA
-"98","53","06/01/2022","Itacambira",NA,NA,NA,NA,"SECA",-16.9349414117844,-43.3287612300959,"Seca","images/seca.png",NA
-"99","54","06/01/2022","Itacarambi",NA,NA,NA,NA,"SECA",-15.1771775351879,-44.1251389633627,"Seca","images/seca.png",NA
-"100","55","06/01/2022","Itambacuri",NA,NA,NA,NA,"SECA",-18.1590799145714,-41.8460623921683,"Seca","images/seca.png",NA
-"101","56","06/01/2022","Itaobim",NA,NA,NA,NA,"SECA",-16.583026659065,-41.5343839384477,"Seca","images/seca.png",NA
-"102","57","06/01/2022","Itamarandiba",NA,NA,NA,NA,"SECA",-17.8563923262809,-42.877013524271,"Seca","images/seca.png",NA
-"103","58","06/01/2022","Itinga",NA,NA,NA,NA,"SECA",-16.5865308020668,-41.8355962228858,"Seca","images/seca.png",NA
-"104","59","06/01/2022","Jacinto",NA,NA,NA,NA,"SECA",-16.1823864218294,-40.3137549058384,"Seca","images/seca.png",NA
-"105","60","06/01/2022","Jaíba",NA,NA,NA,NA,"SECA",-15.2326877687151,-43.6758544578914,"Seca","images/seca.png",NA
-"106","61","06/01/2022","Janaúba",NA,NA,NA,NA,"SECA",-15.7988572612138,-43.3966959913215,"Seca","images/seca.png",NA
-"107","62","06/01/2022","Januária",NA,NA,NA,NA,"SECA",-15.3200659136307,-44.8497237921103,"Seca","images/seca.png",NA
-"108","63","06/01/2022","Japonvar",NA,NA,NA,NA,"SECA",-15.9444838448155,-44.3292833459567,"Seca","images/seca.png",NA
-"109","64","06/01/2022","Jenipapo de Minas",NA,NA,NA,NA,"SECA",-17.1682567412864,-42.2153297716457,"Seca","images/seca.png",NA
-"110","65","06/01/2022","Jequitaí",NA,NA,NA,NA,"SECA",-17.2098574465508,-44.4757991832309,"Seca","images/seca.png",NA
-"111","66","06/01/2022","Jequitinhonha",NA,NA,NA,NA,"SECA",-16.3888127411311,-41.082929459777,"Seca","images/seca.png",NA
-"112","67","06/01/2022","Joaíma",NA,NA,NA,NA,"SECA",-16.770710831283,-41.0153303314175,"Seca","images/seca.png",NA
-"113","68","06/01/2022","Joaquim Felício",NA,NA,NA,NA,"SECA",-17.6760114790549,-44.111535118281,"Seca","images/seca.png",NA
-"114","69","06/01/2022","Jordânia",NA,NA,NA,NA,"SECA",-15.8833102631334,-40.3139189506871,"Seca","images/seca.png",NA
-"115","70","06/01/2022","José Gonçalves de Minas",NA,NA,NA,NA,"SECA",-16.9001761403142,-42.656131790255,"Seca","images/seca.png",NA
-"116","71","06/01/2022","Josenópolis",NA,NA,NA,NA,"SECA",-16.5416383796399,-42.5507118839575,"Seca","images/seca.png",NA
-"117","72","06/01/2022","Juramento",NA,NA,NA,NA,"SECA",-16.8401018832535,-43.5645142888674,"Seca","images/seca.png",NA
-"118","73","06/01/2022","Juvenília",NA,NA,NA,NA,"SECA",-14.3856868692845,-44.0841246470714,"Seca","images/seca.png",NA
-"119","74","06/01/2022","Ladainha",NA,NA,NA,NA,"SECA",-17.6263988051631,-41.8225231503105,"Seca","images/seca.png",NA
-"120","75","06/01/2022","Lagoa dos Patos",NA,NA,NA,NA,"SECA",-17.0078078898494,-44.6463470000045,"Seca","images/seca.png",NA
-"121","76","06/01/2022","Lassance",NA,NA,NA,NA,"SECA",-17.8808603092224,-44.6954719690863,"Seca","images/seca.png",NA
-"122","77","06/01/2022","Leme do Prado",NA,NA,NA,NA,"SECA",-17.0697966005921,-42.7445450526443,"Seca","images/seca.png",NA
-"123","78","06/01/2022","Lontra",NA,NA,NA,NA,"SECA",-15.8563448365515,-44.2696199712216,"Seca","images/seca.png",NA
-"124","79","06/01/2022","Luislândia",NA,NA,NA,NA,"SECA",-16.1962534912975,-44.5964730528474,"Seca","images/seca.png",NA
-"125","80","06/01/2022","Malacacheta",NA,NA,NA,NA,"SECA",-17.8433522786692,-42.1102106009574,"Seca","images/seca.png",NA
-"126","81","06/01/2022","Mamonas",NA,NA,NA,NA,"SECA",-15.0128202975588,-42.9539010045037,"Seca","images/seca.png",NA
-"127","82","06/01/2022","Manga",NA,NA,NA,NA,"SECA",-14.6480503924937,-44.0925566233756,"Seca","images/seca.png",NA
-"128","83","06/01/2022","Matias Cardoso",NA,NA,NA,NA,"SECA",-14.902796688733,-43.7609579037609,"Seca","images/seca.png",NA
-"129","84","06/01/2022","Mato Verde",NA,NA,NA,NA,"SECA",-15.4252925402789,-42.8641769063277,"Seca","images/seca.png",NA
-"130","85","06/01/2022","Minas Novas",NA,NA,NA,NA,"SECA",-17.3614379649866,-42.4360719737633,"Seca","images/seca.png",NA
-"131","86","06/01/2022","Mirabela",NA,NA,NA,NA,"SECA",-16.2593817701941,-44.1577010649405,"Seca","images/seca.png",NA
-"132","87","06/01/2022","Miravânia",NA,NA,NA,NA,"SECA",-14.7529483720756,-44.4215926145797,"Seca","images/seca.png",NA
-"133","88","06/01/2022","Montalvânia",NA,NA,NA,NA,"SECA",-14.4731755092683,-44.5014839575564,"Seca","images/seca.png",NA
-"134","89","06/01/2022","Monte Azul",NA,NA,NA,NA,"SECA",-15.2067612264382,-42.9687306710237,"Seca","images/seca.png",NA
-"135","90","06/01/2022","Montes Claros",NA,NA,NA,NA,"SECA",-16.6203923160673,-43.9287317371385,"Seca","images/seca.png",NA
-"136","91","06/01/2022","Montezuma",NA,NA,NA,NA,"SECA",-15.1912370654275,-42.4695100498379,"Seca","images/seca.png",NA
-"137","92","06/01/2022","Ninheira",NA,NA,NA,NA,"SECA",-15.3680997863068,-41.6599088623473,"Seca","images/seca.png",NA
-"138","93","06/01/2022","Nova Porteirinha",NA,NA,NA,NA,"SECA",-15.7345628388004,-43.2750402643451,"Seca","images/seca.png",NA
-"139","94","06/01/2022","Novo Cruzeiro",NA,NA,NA,NA,"SECA",-17.3707091276615,-41.9551244332637,"Seca","images/seca.png",NA
-"140","95","06/01/2022","Novo Oriente de Minas",NA,NA,NA,NA,"SECA",-17.2291809162302,-41.2276320564007,"Seca","images/seca.png",NA
-"141","96","06/01/2022","Novorizonte",NA,NA,NA,NA,"SECA",-16.011019908751,-42.3976949564494,"Seca","images/seca.png",NA
-"142","97","06/01/2022","Olhos-D'Água",NA,NA,NA,NA,"SECA",-17.4779361902239,-43.5948409104519,"Seca","images/seca.png",NA
-"143","98","06/01/2022","Padre Carvalho",NA,NA,NA,NA,"SECA",-16.3012273855802,-42.5863198164078,"Seca","images/seca.png",NA
-"144","99","06/01/2022","Pai Pedro",NA,NA,NA,NA,"SECA",-15.4190781139001,-43.1496721250005,"Seca","images/seca.png",NA
-"145","100","06/01/2022","Patis",NA,NA,NA,NA,"SECA",-16.0806331085211,-44.1014309110308,"Seca","images/seca.png",NA
-"146","101","06/01/2022","Pavão",NA,NA,NA,NA,"SECA",-17.4715126997536,-41.0616234006254,"Seca","images/seca.png",NA
-"147","102","06/01/2022","Pedra Azul",NA,NA,NA,NA,"SECA",-15.9550574378461,-41.1842210294779,"Seca","images/seca.png",NA
-"148","103","06/01/2022","Pedras de Maria da Cruz",NA,NA,NA,NA,"SECA",-15.6257052526917,-44.3234903920762,"Seca","images/seca.png",NA
-"149","104","06/01/2022","Pintópolis",NA,NA,NA,NA,"SECA",-16.049347194719,-45.2472458682512,"Seca","images/seca.png",NA
-"150","105","06/01/2022","Pirapora",NA,NA,NA,NA,"SECA",-17.3933163273737,-44.8674341647145,"Seca","images/seca.png",NA
-"151","106","06/01/2022","Ponto Chique",NA,NA,NA,NA,"SECA",-16.6087956864894,-44.9736368810418,"Seca","images/seca.png",NA
-"152","107","06/01/2022","Ponto dos Volantes",NA,NA,NA,NA,"SECA",-16.8342100909369,-41.4744240756583,"Seca","images/seca.png",NA
-"153","108","06/01/2022","Poté",NA,NA,NA,NA,"SECA",-17.8149734904356,-41.7693422279938,"Seca","images/seca.png",NA
-"154","109","06/01/2022","Porteirinha",NA,NA,NA,NA,"SECA",-15.7165242338585,-43.0757820112041,"Seca","images/seca.png",NA
-"155","110","06/01/2022","Riachinho",NA,NA,NA,NA,"SECA",-16.2766842345564,-45.9279576093964,"Seca","images/seca.png",NA
-"156","111","06/01/2022","Riacho dos Machados",NA,NA,NA,NA,"SECA",-16.0544764779228,-42.9934126026124,"Seca","images/seca.png",NA
-"157","112","06/01/2022","Rio do Prado",NA,NA,NA,NA,"SECA",-16.6765473834456,-40.555813060063,"Seca","images/seca.png",NA
-"158","113","06/01/2022","Rio Pardo de Minas",NA,NA,NA,NA,"SECA",-15.7088842825072,-42.5513365176917,"Seca","images/seca.png",NA
-"159","114","06/01/2022","Rubelita",NA,NA,NA,NA,"SECA",-16.3676993365704,-42.233940334766,"Seca","images/seca.png",NA
-"160","115","06/01/2022","Rubim",NA,NA,NA,NA,"SECA",-16.4638282074076,-40.494258826877,"Seca","images/seca.png",NA
-"161","116","06/01/2022","Salinas",NA,NA,NA,NA,"SECA",-16.1111258472584,-42.1520989686278,"Seca","images/seca.png",NA
-"162","117","06/01/2022","Santa Cruz de Salinas",NA,NA,NA,NA,"SECA",-16.0507303107436,-41.7898555583569,"Seca","images/seca.png",NA
-"163","118","06/01/2022","Santa Fé de Minas",NA,NA,NA,NA,"SECA",-16.7015181260033,-45.5570717507107,"Seca","images/seca.png",NA
-"164","119","06/01/2022","Santo Antônio do Jacinto",NA,NA,NA,NA,"SECA",-16.5036398118759,-40.2774752794629,"Seca","images/seca.png",NA
-"165","120","06/01/2022","Santo Antônio do Retiro",NA,NA,NA,NA,"SECA",-15.2881161764191,-42.6610256601649,"Seca","images/seca.png",NA
-"166","121","06/01/2022","São Francisco",NA,NA,NA,NA,"SECA",-15.8964726835566,-44.8613940497424,"Seca","images/seca.png",NA
-"167","122","06/01/2022","São João da Lagoa",NA,NA,NA,NA,"SECA",-16.8597664014018,-44.3346793252715,"Seca","images/seca.png",NA
-"168","123","06/01/2022","São João das Missões",NA,NA,NA,NA,"SECA",-14.8919026996557,-44.2277224161318,"Seca","images/seca.png",NA
-"169","124","06/01/2022","São João da Ponte",NA,NA,NA,NA,"SECA",-15.9084604372177,-43.8952592469997,"Seca","images/seca.png",NA
-"170","125","06/01/2022","São João do Pacuí",NA,NA,NA,NA,"SECA",-16.5553171959302,-44.5243603233739,"Seca","images/seca.png",NA
-"171","126","06/01/2022","São João do Paraíso",NA,NA,NA,NA,"SECA",-15.3427662899942,-41.976968950625,"Seca","images/seca.png",NA
-"172","127","06/01/2022","São Romão",NA,NA,NA,NA,"SECA",-16.3895034258,-45.4062374099775,"Seca","images/seca.png",NA
-"173","128","06/01/2022","Senador Modestino Gonçalves",NA,NA,NA,NA,"SECA",-17.8551896208211,-43.2409658275145,"Seca","images/seca.png",NA
-"174","129","06/01/2022","Serranópolis de Minas",NA,NA,NA,NA,"SECA",-15.8567999710891,-42.8609374194252,"Seca","images/seca.png",NA
-"175","130","06/01/2022","Setubinha",NA,NA,NA,NA,"SECA",-17.6224818448356,-42.1568379881102,"Seca","images/seca.png",NA
-"176","131","06/01/2022","Taiobeiras",NA,NA,NA,NA,"SECA",-15.8244860717047,-42.0560952117398,"Seca","images/seca.png",NA
-"177","132","06/01/2022","Teófilo Otoni",NA,NA,NA,NA,"SECA",-17.7145025934244,-41.3836203984,"Seca","images/seca.png",NA
-"178","133","06/01/2022","Turmalina",NA,NA,NA,NA,"SECA",-17.2444497396872,-42.8399865021666,"Seca","images/seca.png",NA
-"179","134","06/01/2022","Ubaí",NA,NA,NA,NA,"SECA",-16.3640177046185,-44.8476280235146,"Seca","images/seca.png",NA
-"180","135","06/01/2022","Umburatiba",NA,NA,NA,NA,"SECA",-17.2723795777219,-40.6669063150439,"Seca","images/seca.png",NA
-"181","136","06/01/2022","Urucuia",NA,NA,NA,NA,"SECA",-16.0285817946961,-45.5729048626918,"Seca","images/seca.png",NA
-"182","137","06/01/2022","Vargem Grande do Rio Pardo",NA,NA,NA,NA,"SECA",-15.3406409448044,-42.2989260522455,"Seca","images/seca.png",NA
-"183","138","06/01/2022","Várzea da Palma",NA,NA,NA,NA,"SECA",-17.4956212601684,-44.7272313331192,"Seca","images/seca.png",NA
-"184","139","06/01/2022","Varzelândia",NA,NA,NA,NA,"SECA",-15.6414607614768,-43.934432468143,"Seca","images/seca.png",NA
-"185","140","06/01/2022","Verdelândia",NA,NA,NA,NA,"SECA",-15.5401795884012,-43.6282682430522,"Seca","images/seca.png",NA
-"186","141","06/01/2022","Veredinha",NA,NA,NA,NA,"SECA",-17.4876540102473,-42.7252738846473,"Seca","images/seca.png",NA
-"187","142","06/01/2022","Virgem da Lapa",NA,NA,NA,NA,"SECA",-16.7154217065154,-42.3396609337961,"Seca","images/seca.png",NA
-"188","143","06/01/2022","Glaucilândia",NA,NA,NA,NA,"SECA",-16.9038544037521,-43.6392834952913,"Seca","images/seca.png",NA
-"189","144","06/01/2022","Carlos Chagas",NA,NA,NA,NA,"SECA",-17.6740848141508,-40.8419109931526,"Seca","images/seca.png",NA
-"190","145","06/01/2022","Salinas",NA,NA,NA,NA,"SECA",-16.1111258472584,-42.1520989686278,"Seca","images/seca.png",NA
-"191","146","06/01/2022","Joaíma",NA,NA,NA,NA,"SECA",-16.770710831283,-41.0153303314175,"Seca","images/seca.png",NA
-"192","147","06/01/2022","Lontra",NA,NA,NA,NA,"SECA",-15.8563448365515,-44.2696199712216,"Seca","images/seca.png",NA
-"193","148","06/01/2022","Rio Pardo de Minas",NA,NA,NA,NA,"SECA",-15.7088842825072,-42.5513365176917,"Seca","images/seca.png",NA
-"194","149","06/01/2022","Novo Oriente de Minas",NA,NA,NA,NA,"SECA",-17.2291809162302,-41.2276320564007,"Seca","images/seca.png",NA
-"195","150","06/01/2022","Brasília de Minas",NA,NA,NA,NA,"SECA",-16.2426487714101,-44.4390512771039,"Seca","images/seca.png",NA
+"46","1",NA,"Águas Vermelhas",NA,NA,NA,NA,"SECA",-15.6831089050979,-41.5215074499224,"Seca","images/seca.png",NA
+"47","2",NA,"Almenara",NA,NA,NA,NA,"SECA",-16.0910436877635,-40.7238344687858,"Seca","images/seca.png",NA
+"48","3",NA,"Araçuaí",NA,NA,NA,NA,"SECA",-16.9307203278684,-41.9931504640464,"Seca","images/seca.png",NA
+"49","4",NA,"Aricanduva",NA,NA,NA,NA,"SECA",-17.8810889366177,-42.6055704012118,"Seca","images/seca.png",NA
+"50","5",NA,"Arinos",NA,NA,NA,NA,"SECA",-15.7505588438045,-45.9884569083532,"Seca","images/seca.png",NA
+"51","6",NA,"Augusto de Lima",NA,NA,NA,NA,"SECA",-18.1088662075512,-44.1980373313386,"Seca","images/seca.png",NA
+"52","7",NA,"Bandeira",NA,NA,NA,NA,"SECA",-15.8776760732068,-40.580972810709,"Seca","images/seca.png",NA
+"53","8",NA,"Berilo",NA,NA,NA,NA,"SECA",-16.8623408370312,-42.4943159398051,"Seca","images/seca.png",NA
+"54","9",NA,"Berizal",NA,NA,NA,NA,"SECA",-15.6841181363946,-41.7617631867336,"Seca","images/seca.png",NA
+"55","10",NA,"Bocaiúva",NA,NA,NA,NA,"SECA",-17.2896346655127,-43.6864389395857,"Seca","images/seca.png",NA
+"56","11",NA,"Bonito de Minas",NA,NA,NA,NA,"SECA",-14.9925592847151,-44.8968524332643,"Seca","images/seca.png",NA
+"57","12",NA,"Botumirim",NA,NA,NA,NA,"SECA",-16.9377945647968,-43.005641372599,"Seca","images/seca.png",NA
+"58","13",NA,"Brasilia de Minas",NA,NA,NA,NA,"SECA",-16.2426487714101,-44.4390512771039,"Seca","images/seca.png",NA
+"59","14",NA,"Buenópolis",NA,NA,NA,NA,"SECA",-17.8805189929525,-44.0413340209571,"Seca","images/seca.png",NA
+"60","15",NA,"Buritizeiro",NA,NA,NA,NA,"SECA",-17.285520826019,-45.1916690740869,"Seca","images/seca.png",NA
+"61","16",NA,"Cachoeira de Pajeú",NA,NA,NA,NA,"SECA",-15.968511019161,-41.4979461244774,"Seca","images/seca.png",NA
+"62","17",NA,"Campo Azul",NA,NA,NA,NA,"SECA",-16.5087530511007,-44.7632987327088,"Seca","images/seca.png",NA
+"63","18",NA,"Capelinha",NA,NA,NA,NA,"SECA",-17.6928414853266,-42.4919686616897,"Seca","images/seca.png",NA
+"64","19",NA,"Capitão Enéas",NA,NA,NA,NA,"SECA",-16.1361568497292,-43.6646044586672,"Seca","images/seca.png",NA
+"65","20",NA,"Caraí",NA,NA,NA,NA,"SECA",-17.173607037654,-41.5835642076187,"Seca","images/seca.png",NA
+"66","21",NA,"Carbonita",NA,NA,NA,NA,"SECA",-17.494090615756,-43.0577091257688,"Seca","images/seca.png",NA
+"67","22",NA,"Catuti",NA,NA,NA,NA,"SECA",-15.3356473238316,-43.0974274671784,"Seca","images/seca.png",NA
+"68","23",NA,"Chapada do Norte",NA,NA,NA,NA,"SECA",-17.147367662855,-42.4123072803022,"Seca","images/seca.png",NA
+"69","24",NA,"Chapada Gaúcha",NA,NA,NA,NA,"SECA",-15.4692036608162,-45.4587517731863,"Seca","images/seca.png",NA
+"70","25",NA,"Claro dos Poções",NA,NA,NA,NA,"SECA",-17.0686510479215,-44.2281083727901,"Seca","images/seca.png",NA
+"71","26",NA,"Cônego Marinho",NA,NA,NA,NA,"SECA",-14.9844636910476,-44.5965271315879,"Seca","images/seca.png",NA
+"72","27",NA,"Coração de Jesus",NA,NA,NA,NA,"SECA",-16.6131939919835,-44.3786266387251,"Seca","images/seca.png",NA
+"73","28",NA,"Corinto",NA,NA,NA,NA,"SECA",-18.3354014682448,-44.6174645114493,"Seca","images/seca.png",NA
+"74","29",NA,"Coronel Murta",NA,NA,NA,NA,"SECA",-16.5912663378398,-42.1763014832706,"Seca","images/seca.png",NA
+"75","30",NA,"Crisólita",NA,NA,NA,NA,"SECA",-17.2401182578123,-40.9614891843935,"Seca","images/seca.png",NA
+"76","31",NA,"Cristália",NA,NA,NA,NA,"SECA",-16.7186244059586,-42.8210204619752,"Seca","images/seca.png",NA
+"77","32",NA,"Curral de Dentro",NA,NA,NA,NA,"SECA",-15.8617806975143,-41.7648113042943,"Seca","images/seca.png",NA
+"78","33",NA,"Divisa Alegre",NA,NA,NA,NA,"SECA",-15.6986672414772,-41.3740718550105,"Seca","images/seca.png",NA
+"79","34",NA,"Divisópolis",NA,NA,NA,NA,"SECA",-15.7628970744443,-40.9123229834827,"Seca","images/seca.png",NA
+"80","35",NA,"Engenheiro Navarro",NA,NA,NA,NA,"SECA",-17.296484572148,-44.0140379939444,"Seca","images/seca.png",NA
+"81","36",NA,"Espinosa",NA,NA,NA,NA,"SECA",-14.8590717037043,-42.9660132702439,"Seca","images/seca.png",NA
+"82","37",NA,"Felisburgo",NA,NA,NA,NA,"SECA",-16.636034683388,-40.7331588243818,"Seca","images/seca.png",NA
+"83","38",NA,"Formoso",NA,NA,NA,NA,"SECA",-15.1296697853309,-46.1586977497064,"Seca","images/seca.png",NA
+"84","39",NA,"Francisco Badaró",NA,NA,NA,NA,"SECA",-16.9776162419786,-42.3098232709388,"Seca","images/seca.png",NA
+"85","40",NA,"Francisco Dumont",NA,NA,NA,NA,"SECA",-17.4697453815114,-44.2698278761709,"Seca","images/seca.png",NA
+"86","41",NA,"Francisco Sá",NA,NA,NA,NA,"SECA",-16.3936036633069,-43.4788304831152,"Seca","images/seca.png",NA
+"87","42",NA,"Franciscópolis",NA,NA,NA,NA,"SECA",-17.9933235543119,-41.9679201662665,"Seca","images/seca.png",NA
+"88","43",NA,"Fruta de Leite",NA,NA,NA,NA,"SECA",-16.1255766238541,-42.5199783169786,"Seca","images/seca.png",NA
+"89","44",NA,"Gameleiras",NA,NA,NA,NA,"SECA",-14.9710336869202,-43.2597275704929,"Seca","images/seca.png",NA
+"90","45",NA,"Glaucilândia",NA,NA,NA,NA,"SECA",-16.9038544037521,-43.6392834952913,"Seca","images/seca.png",NA
+"91","46",NA,"Gouveia",NA,NA,NA,NA,"SECA",-18.5235065217889,-43.8334469546759,"Seca","images/seca.png",NA
+"92","47",NA,"Grão Mogol",NA,NA,NA,NA,"SECA",-16.4639155437007,-42.9938885489663,"Seca","images/seca.png",NA
+"93","48",NA,"Guaraciama",NA,NA,NA,NA,"SECA",-17.0785054627747,-43.6206313715531,"Seca","images/seca.png",NA
+"94","49",NA,"Ibiaí",NA,NA,NA,NA,"SECA",-16.828769364944,-44.7902512301987,"Seca","images/seca.png",NA
+"95","50",NA,"Ibiracatu",NA,NA,NA,NA,"SECA",-15.696831964409,-44.1449047847416,"Seca","images/seca.png",NA
+"96","51",NA,"Icaraí de Minas",NA,NA,NA,NA,"SECA",-16.2251309203843,-44.9163567069221,"Seca","images/seca.png",NA
+"97","52",NA,"Indaiabira",NA,NA,NA,NA,"SECA",-15.5621855670506,-42.14296064552,"Seca","images/seca.png",NA
+"98","53",NA,"Itacambira",NA,NA,NA,NA,"SECA",-16.9349414117844,-43.3287612300959,"Seca","images/seca.png",NA
+"99","54",NA,"Itacarambi",NA,NA,NA,NA,"SECA",-15.1771775351879,-44.1251389633627,"Seca","images/seca.png",NA
+"100","55",NA,"Itambacuri",NA,NA,NA,NA,"SECA",-18.1590799145714,-41.8460623921683,"Seca","images/seca.png",NA
+"101","56",NA,"Itaobim",NA,NA,NA,NA,"SECA",-16.583026659065,-41.5343839384477,"Seca","images/seca.png",NA
+"102","57",NA,"Itamarandiba",NA,NA,NA,NA,"SECA",-17.8563923262809,-42.877013524271,"Seca","images/seca.png",NA
+"103","58",NA,"Itinga",NA,NA,NA,NA,"SECA",-16.5865308020668,-41.8355962228858,"Seca","images/seca.png",NA
+"104","59",NA,"Jacinto",NA,NA,NA,NA,"SECA",-16.1823864218294,-40.3137549058384,"Seca","images/seca.png",NA
+"105","60",NA,"Jaíba",NA,NA,NA,NA,"SECA",-15.2326877687151,-43.6758544578914,"Seca","images/seca.png",NA
+"106","61",NA,"Janaúba",NA,NA,NA,NA,"SECA",-15.7988572612138,-43.3966959913215,"Seca","images/seca.png",NA
+"107","62",NA,"Januária",NA,NA,NA,NA,"SECA",-15.3200659136307,-44.8497237921103,"Seca","images/seca.png",NA
+"108","63",NA,"Japonvar",NA,NA,NA,NA,"SECA",-15.9444838448155,-44.3292833459567,"Seca","images/seca.png",NA
+"109","64",NA,"Jenipapo de Minas",NA,NA,NA,NA,"SECA",-17.1682567412864,-42.2153297716457,"Seca","images/seca.png",NA
+"110","65",NA,"Jequitaí",NA,NA,NA,NA,"SECA",-17.2098574465508,-44.4757991832309,"Seca","images/seca.png",NA
+"111","66",NA,"Jequitinhonha",NA,NA,NA,NA,"SECA",-16.3888127411311,-41.082929459777,"Seca","images/seca.png",NA
+"112","67",NA,"Joaíma",NA,NA,NA,NA,"SECA",-16.770710831283,-41.0153303314175,"Seca","images/seca.png",NA
+"113","68",NA,"Joaquim Felício",NA,NA,NA,NA,"SECA",-17.6760114790549,-44.111535118281,"Seca","images/seca.png",NA
+"114","69",NA,"Jordânia",NA,NA,NA,NA,"SECA",-15.8833102631334,-40.3139189506871,"Seca","images/seca.png",NA
+"115","70",NA,"José Gonçalves de Minas",NA,NA,NA,NA,"SECA",-16.9001761403142,-42.656131790255,"Seca","images/seca.png",NA
+"116","71",NA,"Josenópolis",NA,NA,NA,NA,"SECA",-16.5416383796399,-42.5507118839575,"Seca","images/seca.png",NA
+"117","72",NA,"Juramento",NA,NA,NA,NA,"SECA",-16.8401018832535,-43.5645142888674,"Seca","images/seca.png",NA
+"118","73",NA,"Juvenília",NA,NA,NA,NA,"SECA",-14.3856868692845,-44.0841246470714,"Seca","images/seca.png",NA
+"119","74",NA,"Ladainha",NA,NA,NA,NA,"SECA",-17.6263988051631,-41.8225231503105,"Seca","images/seca.png",NA
+"120","75",NA,"Lagoa dos Patos",NA,NA,NA,NA,"SECA",-17.0078078898494,-44.6463470000045,"Seca","images/seca.png",NA
+"121","76",NA,"Lassance",NA,NA,NA,NA,"SECA",-17.8808603092224,-44.6954719690863,"Seca","images/seca.png",NA
+"122","77",NA,"Leme do Prado",NA,NA,NA,NA,"SECA",-17.0697966005921,-42.7445450526443,"Seca","images/seca.png",NA
+"123","78",NA,"Lontra",NA,NA,NA,NA,"SECA",-15.8563448365515,-44.2696199712216,"Seca","images/seca.png",NA
+"124","79",NA,"Luislândia",NA,NA,NA,NA,"SECA",-16.1962534912975,-44.5964730528474,"Seca","images/seca.png",NA
+"125","80",NA,"Malacacheta",NA,NA,NA,NA,"SECA",-17.8433522786692,-42.1102106009574,"Seca","images/seca.png",NA
+"126","81",NA,"Mamonas",NA,NA,NA,NA,"SECA",-15.0128202975588,-42.9539010045037,"Seca","images/seca.png",NA
+"127","82",NA,"Manga",NA,NA,NA,NA,"SECA",-14.6480503924937,-44.0925566233756,"Seca","images/seca.png",NA
+"128","83",NA,"Matias Cardoso",NA,NA,NA,NA,"SECA",-14.902796688733,-43.7609579037609,"Seca","images/seca.png",NA
+"129","84",NA,"Mato Verde",NA,NA,NA,NA,"SECA",-15.4252925402789,-42.8641769063277,"Seca","images/seca.png",NA
+"130","85",NA,"Minas Novas",NA,NA,NA,NA,"SECA",-17.3614379649866,-42.4360719737633,"Seca","images/seca.png",NA
+"131","86",NA,"Mirabela",NA,NA,NA,NA,"SECA",-16.2593817701941,-44.1577010649405,"Seca","images/seca.png",NA
+"132","87",NA,"Miravânia",NA,NA,NA,NA,"SECA",-14.7529483720756,-44.4215926145797,"Seca","images/seca.png",NA
+"133","88",NA,"Montalvânia",NA,NA,NA,NA,"SECA",-14.4731755092683,-44.5014839575564,"Seca","images/seca.png",NA
+"134","89",NA,"Monte Azul",NA,NA,NA,NA,"SECA",-15.2067612264382,-42.9687306710237,"Seca","images/seca.png",NA
+"135","90",NA,"Montes Claros",NA,NA,NA,NA,"SECA",-16.6203923160673,-43.9287317371385,"Seca","images/seca.png",NA
+"136","91",NA,"Montezuma",NA,NA,NA,NA,"SECA",-15.1912370654275,-42.4695100498379,"Seca","images/seca.png",NA
+"137","92",NA,"Ninheira",NA,NA,NA,NA,"SECA",-15.3680997863068,-41.6599088623473,"Seca","images/seca.png",NA
+"138","93",NA,"Nova Porteirinha",NA,NA,NA,NA,"SECA",-15.7345628388004,-43.2750402643451,"Seca","images/seca.png",NA
+"139","94",NA,"Novo Cruzeiro",NA,NA,NA,NA,"SECA",-17.3707091276615,-41.9551244332637,"Seca","images/seca.png",NA
+"140","95",NA,"Novo Oriente de Minas",NA,NA,NA,NA,"SECA",-17.2291809162302,-41.2276320564007,"Seca","images/seca.png",NA
+"141","96",NA,"Novorizonte",NA,NA,NA,NA,"SECA",-16.011019908751,-42.3976949564494,"Seca","images/seca.png",NA
+"142","97",NA,"Olhos-D'Água",NA,NA,NA,NA,"SECA",-17.4779361902239,-43.5948409104519,"Seca","images/seca.png",NA
+"143","98",NA,"Padre Carvalho",NA,NA,NA,NA,"SECA",-16.3012273855802,-42.5863198164078,"Seca","images/seca.png",NA
+"144","99",NA,"Pai Pedro",NA,NA,NA,NA,"SECA",-15.4190781139001,-43.1496721250005,"Seca","images/seca.png",NA
+"145","100",NA,"Patis",NA,NA,NA,NA,"SECA",-16.0806331085211,-44.1014309110308,"Seca","images/seca.png",NA
+"146","101",NA,"Pavão",NA,NA,NA,NA,"SECA",-17.4715126997536,-41.0616234006254,"Seca","images/seca.png",NA
+"147","102",NA,"Pedra Azul",NA,NA,NA,NA,"SECA",-15.9550574378461,-41.1842210294779,"Seca","images/seca.png",NA
+"148","103",NA,"Pedras de Maria da Cruz",NA,NA,NA,NA,"SECA",-15.6257052526917,-44.3234903920762,"Seca","images/seca.png",NA
+"149","104",NA,"Pintópolis",NA,NA,NA,NA,"SECA",-16.049347194719,-45.2472458682512,"Seca","images/seca.png",NA
+"150","105",NA,"Pirapora",NA,NA,NA,NA,"SECA",-17.3933163273737,-44.8674341647145,"Seca","images/seca.png",NA
+"151","106",NA,"Ponto Chique",NA,NA,NA,NA,"SECA",-16.6087956864894,-44.9736368810418,"Seca","images/seca.png",NA
+"152","107",NA,"Ponto dos Volantes",NA,NA,NA,NA,"SECA",-16.8342100909369,-41.4744240756583,"Seca","images/seca.png",NA
+"153","108",NA,"Poté",NA,NA,NA,NA,"SECA",-17.8149734904356,-41.7693422279938,"Seca","images/seca.png",NA
+"154","109",NA,"Porteirinha",NA,NA,NA,NA,"SECA",-15.7165242338585,-43.0757820112041,"Seca","images/seca.png",NA
+"155","110",NA,"Riachinho",NA,NA,NA,NA,"SECA",-16.2766842345564,-45.9279576093964,"Seca","images/seca.png",NA
+"156","111",NA,"Riacho dos Machados",NA,NA,NA,NA,"SECA",-16.0544764779228,-42.9934126026124,"Seca","images/seca.png",NA
+"157","112",NA,"Rio do Prado",NA,NA,NA,NA,"SECA",-16.6765473834456,-40.555813060063,"Seca","images/seca.png",NA
+"158","113",NA,"Rio Pardo de Minas",NA,NA,NA,NA,"SECA",-15.7088842825072,-42.5513365176917,"Seca","images/seca.png",NA
+"159","114",NA,"Rubelita",NA,NA,NA,NA,"SECA",-16.3676993365704,-42.233940334766,"Seca","images/seca.png",NA
+"160","115",NA,"Rubim",NA,NA,NA,NA,"SECA",-16.4638282074076,-40.494258826877,"Seca","images/seca.png",NA
+"161","116",NA,"Salinas",NA,NA,NA,NA,"SECA",-16.1111258472584,-42.1520989686278,"Seca","images/seca.png",NA
+"162","117",NA,"Santa Cruz de Salinas",NA,NA,NA,NA,"SECA",-16.0507303107436,-41.7898555583569,"Seca","images/seca.png",NA
+"163","118",NA,"Santa Fé de Minas",NA,NA,NA,NA,"SECA",-16.7015181260033,-45.5570717507107,"Seca","images/seca.png",NA
+"164","119",NA,"Santo Antônio do Jacinto",NA,NA,NA,NA,"SECA",-16.5036398118759,-40.2774752794629,"Seca","images/seca.png",NA
+"165","120",NA,"Santo Antônio do Retiro",NA,NA,NA,NA,"SECA",-15.2881161764191,-42.6610256601649,"Seca","images/seca.png",NA
+"166","121",NA,"São Francisco",NA,NA,NA,NA,"SECA",-15.8964726835566,-44.8613940497424,"Seca","images/seca.png",NA
+"167","122",NA,"São João da Lagoa",NA,NA,NA,NA,"SECA",-16.8597664014018,-44.3346793252715,"Seca","images/seca.png",NA
+"168","123",NA,"São João das Missões",NA,NA,NA,NA,"SECA",-14.8919026996557,-44.2277224161318,"Seca","images/seca.png",NA
+"169","124",NA,"São João da Ponte",NA,NA,NA,NA,"SECA",-15.9084604372177,-43.8952592469997,"Seca","images/seca.png",NA
+"170","125",NA,"São João do Pacuí",NA,NA,NA,NA,"SECA",-16.5553171959302,-44.5243603233739,"Seca","images/seca.png",NA
+"171","126",NA,"São João do Paraíso",NA,NA,NA,NA,"SECA",-15.3427662899942,-41.976968950625,"Seca","images/seca.png",NA
+"172","127",NA,"São Romão",NA,NA,NA,NA,"SECA",-16.3895034258,-45.4062374099775,"Seca","images/seca.png",NA
+"173","128",NA,"Senador Modestino Gonçalves",NA,NA,NA,NA,"SECA",-17.8551896208211,-43.2409658275145,"Seca","images/seca.png",NA
+"174","129",NA,"Serranópolis de Minas",NA,NA,NA,NA,"SECA",-15.8567999710891,-42.8609374194252,"Seca","images/seca.png",NA
+"175","130",NA,"Setubinha",NA,NA,NA,NA,"SECA",-17.6224818448356,-42.1568379881102,"Seca","images/seca.png",NA
+"176","131",NA,"Taiobeiras",NA,NA,NA,NA,"SECA",-15.8244860717047,-42.0560952117398,"Seca","images/seca.png",NA
+"177","132",NA,"Teófilo Otoni",NA,NA,NA,NA,"SECA",-17.7145025934244,-41.3836203984,"Seca","images/seca.png",NA
+"178","133",NA,"Turmalina",NA,NA,NA,NA,"SECA",-17.2444497396872,-42.8399865021666,"Seca","images/seca.png",NA
+"179","134",NA,"Ubaí",NA,NA,NA,NA,"SECA",-16.3640177046185,-44.8476280235146,"Seca","images/seca.png",NA
+"180","135",NA,"Umburatiba",NA,NA,NA,NA,"SECA",-17.2723795777219,-40.6669063150439,"Seca","images/seca.png",NA
+"181","136",NA,"Urucuia",NA,NA,NA,NA,"SECA",-16.0285817946961,-45.5729048626918,"Seca","images/seca.png",NA
+"182","137",NA,"Vargem Grande do Rio Pardo",NA,NA,NA,NA,"SECA",-15.3406409448044,-42.2989260522455,"Seca","images/seca.png",NA
+"183","138",NA,"Várzea da Palma",NA,NA,NA,NA,"SECA",-17.4956212601684,-44.7272313331192,"Seca","images/seca.png",NA
+"184","139",NA,"Varzelândia",NA,NA,NA,NA,"SECA",-15.6414607614768,-43.934432468143,"Seca","images/seca.png",NA
+"185","140",NA,"Verdelândia",NA,NA,NA,NA,"SECA",-15.5401795884012,-43.6282682430522,"Seca","images/seca.png",NA
+"186","141",NA,"Veredinha",NA,NA,NA,NA,"SECA",-17.4876540102473,-42.7252738846473,"Seca","images/seca.png",NA
+"187","142",NA,"Virgem da Lapa",NA,NA,NA,NA,"SECA",-16.7154217065154,-42.3396609337961,"Seca","images/seca.png",NA
+"188","143",NA,"Glaucilândia",NA,NA,NA,NA,"SECA",-16.9038544037521,-43.6392834952913,"Seca","images/seca.png",NA
+"189","144",NA,"Carlos Chagas",NA,NA,NA,NA,"SECA",-17.6740848141508,-40.8419109931526,"Seca","images/seca.png",NA
+"190","145",NA,"Salinas",NA,NA,NA,NA,"SECA",-16.1111258472584,-42.1520989686278,"Seca","images/seca.png",NA
+"191","146",NA,"Joaíma",NA,NA,NA,NA,"SECA",-16.770710831283,-41.0153303314175,"Seca","images/seca.png",NA
+"192","147",NA,"Lontra",NA,NA,NA,NA,"SECA",-15.8563448365515,-44.2696199712216,"Seca","images/seca.png",NA
+"193","148",NA,"Rio Pardo de Minas",NA,NA,NA,NA,"SECA",-15.7088842825072,-42.5513365176917,"Seca","images/seca.png",NA
+"194","149",NA,"Novo Oriente de Minas",NA,NA,NA,NA,"SECA",-17.2291809162302,-41.2276320564007,"Seca","images/seca.png",NA
+"195","150",NA,"Brasília de Minas",NA,NA,NA,NA,"SECA",-16.2426487714101,-44.4390512771039,"Seca","images/seca.png",NA
