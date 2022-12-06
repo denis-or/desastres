@@ -177,7 +177,7 @@ scrape_disaster <- function(u){
 
   # tab_comp_c <- rbind(tab_comp_c, tabela_temp_c, tabela_temp_c2)
   tab_comp_c <- rbind(tab_comp_c, tabela_temp_c2) |>
-    dplyr::mutate(dt_atu = dt_atu)
+    dplyr::mutate(dt_atu = dt_atu,teste = Sys.setlocale())
 
   tab_comp_c
 
