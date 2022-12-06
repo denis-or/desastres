@@ -180,7 +180,9 @@ scrape_disaster <- function(u){
 
 
   tab_comp_c <- rbind(tab_comp_c, tabela_temp_c2) |>
-    dplyr::mutate(dt_atu = dt_atu)
+    dplyr::mutate(dt_atu = dt_atu,
+                  teste1 = Sys.getlocale("LC_TIME"),
+                  teste2 = Sys.Date())
 
   tab_comp_c
 
