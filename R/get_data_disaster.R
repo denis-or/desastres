@@ -16,21 +16,6 @@ scrape_disaster <- function(u){
     stop("Erro de conexão com o site da Defesa Civil.")
   }
 
-#
-#   format_date_atu <- function(string){
-#
-#     inicio <- stringr::str_locate(string, "em")[2]+1
-#     fim <- stringr::str_length(string)
-#
-#     txt <- stringr::str_sub(string, inicio, fim) |>
-#       stringr::str_squish() |>
-#       stringr::str_remove_all("[:punct:]")
-#
-#     txt <- format(as.Date(txt, "%d%b%Y"), format = "%d de %B de %Y")
-#
-#     txt
-#   }
-
   dt_atu <- httr::content(r) |>
     xml2::xml_find_all(xpath = "//p") |>
     xml2::xml_text() |>
@@ -163,7 +148,7 @@ scrape_disaster <- function(u){
     dplyr::left_join(coords, by = "id_municipio") |>
     transform(
       image_df = paste0("images/", tolower(substr(icon_df, 1, 4)), ".png"),
-      data_entrada = NA_character_,#format(as.Date(dt_atu, "%d de %B de %Y"), format = "%d/%m/%Y"),
+      data_entrada = format(as.Date(dt_atu, "%d%b%Y"), format = "%d/%m/%Y"),
       decreto_nr = NA_character_,
       decreto_data = NA_character_,
       decreto_vigencia = NA_character_,
@@ -189,29 +174,7 @@ scrape_disaster <- function(u){
 
   # tab_comp_c <- rbind(tab_comp_c, tabela_temp_c, tabela_temp_c2)
   tab_comp_c <- rbind(tab_comp_c, tabela_temp_c2) |>
-    dplyr::mutate(dt_atu = dt_atu)
-    # dplyr::mutate(dt_atu = format(as.Date(dt_atu, "%d de %B de %Y"), format = "%d/%m/%Y"))
-
-  # format_date_atu <- function(string){
-  #
-  #   inicio <- stringr::str_locate(string, "em")[2]+1
-  #   fim <- stringr::str_length(string)
-  #
-  #   txt <- stringr::str_sub(string, inicio, fim) |>
-  #     stringr::str_squish() |>
-  #     stringr::str_remove_all("[:punct:]")
-  #
-  #   txt <- format(as.Date(txt, "%d%b%Y"), format = "%d de %B %Y")
-  #
-  #   txt
-  # }
-  #
-  #
-  # tab_comp_c$dt_atu <- httr::content(r) |>
-  #   xml2::xml_find_all(xpath = "//p") |>
-  #   xml2::xml_text() |>
-  #   {\(x) grep("Atualização", x, value = TRUE)}()|>
-  #   format_date_atu()
+    dplyr::mutate(dt_atu = format(as.Date(dt_atu, "%d%b%Y"), format = "%d/%m/%Y"))
 
   tab_comp_c
 
