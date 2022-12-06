@@ -20,7 +20,7 @@ scrape_disaster <- function(u){
     xml2::xml_find_all("//table") |>
     rvest::html_table()
 
-  tabela <- tabelas[[3]]
+  tabela <- tabelas[[1]]
 
   tabela <- tabela[-c(1:2),]
 
@@ -31,8 +31,16 @@ scrape_disaster <- function(u){
   coords <- readRDS('inst/br_pts.rds')
 
   tab_comp <-silence_pls(tabela |>
-                           munifacil::limpar_colunas(municipio, col_uf = "MG") |>
-                           munifacil::incluir_codigo_ibge())
+                           dplyr::mutate(uf = "MG",
+                                         municipio = dplyr::case_when(
+                                           municipio == "Presidnte Bernardes" ~ "Presidente Bernardes",
+                                           municipio == "Trê Corações" ~ "Três Corações",
+                                           municipio == "Piedade do Reio Grande" ~ "Piedade do Rio Grande",
+                                           municipio == "Silverânia" ~ "Silveirânia",
+                                           TRUE ~ municipio
+                                         )) |>
+                           munifacil::limpar_colunas(col_muni = municipio, col_uf = uf) |>
+                           munifacil::incluir_codigo_ibge(diagnostico = F))
 
   tab_comp_c <- silence_pls(
     tab_comp |>
@@ -72,54 +80,63 @@ scrape_disaster <- function(u){
                image_df
              )
       ) |>
-      dplyr::filter(icon_df != "Tempestade",
-                    icon_df != "Seca")
+      dplyr::filter(#icon_df != "Tempestade",
+        icon_df != "Seca")
   )
 
-  tabela_temp <- tabelas[[1]]
+  # tabela_temp <- tabelas[[2]][-1,]
+  #
+  # colnames(tabela_temp) <- c("ordem","municipio")
+  #
+  # tabela_temp_c <- tabela_temp |>
+  #   transform(uf = "MG",
+  #             desastre = "TEMPESTADE",
+  #             icon_df = "Tempestade") |>
+  #   munifacil::limpar_colunas(municipio, col_uf = uf) |>
+  #   munifacil::incluir_codigo_ibge() |>
+  #   dplyr::left_join(coords, by = "id_municipio") |>
+  #   transform(
+  #     image_df = paste0("images/", tolower(substr(icon_df, 1, 4)), ".png"),
+  #     data_entrada = '06/01/2022',
+  #     decreto_nr = NA_character_,
+  #     decreto_data = NA_character_,
+  #     decreto_vigencia = NA_character_,
+  #     vencimento = NA_character_
+  #   ) |>
+  #   subset(,c(
+  #       ordem,
+  #       data_entrada,
+  #       municipio,
+  #       decreto_nr,
+  #       decreto_data,
+  #       decreto_vigencia,
+  #       vencimento,
+  #       desastre,
+  #       lat,
+  #       lon,
+  #       icon_df,
+  #       image_df
+  #     )
+  #   )
 
-  colnames(tabela_temp) <- c("ordem","municipio")
 
-  tabela_temp_c <- tabela_temp |>
-    transform(desastre = "TEMPESTADE",
-              icon_df = "Tempestade") |>
-    munifacil::limpar_colunas(municipio, col_uf = "MG") |>
-    munifacil::incluir_codigo_ibge() |>
-    dplyr::left_join(coords, by = "id_municipio") |>
-    transform(
-      image_df = paste0("images/", tolower(substr(icon_df, 1, 4)), ".png"),
-      data_entrada = '06/01/2022',
-      decreto_nr = NA_character_,
-      decreto_data = NA_character_,
-      decreto_vigencia = NA_character_,
-      vencimento = NA_character_
-    ) |>
-    subset(,c(
-        ordem,
-        data_entrada,
-        municipio,
-        decreto_nr,
-        decreto_data,
-        decreto_vigencia,
-        vencimento,
-        desastre,
-        lat,
-        lon,
-        icon_df,
-        image_df
-      )
-    )
-
-
-  tabela_temp2 <- tabelas[[2]]
+  tabela_temp2 <- tabelas[[2]][-1,]
 
   colnames(tabela_temp2) <- c("ordem","municipio")
 
   tabela_temp_c2 <- tabela_temp2 |>
-    transform(desastre = "SECA",
-              icon_df = "Seca") |>
-    munifacil::limpar_colunas(municipio, col_uf = "MG") |>
-    munifacil::incluir_codigo_ibge() |>
+    dplyr::mutate(
+      municipio = dplyr::case_when(
+        municipio == "Cachoeira do Pajeú" ~ "Cachoeira de Pajeú",
+        municipio == "Mamona" ~ "Mamonas",
+        municipio == "Saliinas" ~ "Salinas",
+        TRUE ~ municipio
+      ),
+      uf = "MG",
+      desastre = "SECA",
+      icon_df = "Seca") |>
+    munifacil::limpar_colunas(municipio, col_uf = uf) |>
+    munifacil::incluir_codigo_ibge(diagnostico = F) |>
     dplyr::left_join(coords, by = "id_municipio") |>
     transform(
       image_df = paste0("images/", tolower(substr(icon_df, 1, 4)), ".png"),
@@ -130,24 +147,25 @@ scrape_disaster <- function(u){
       vencimento = NA_character_
     ) |>
     subset(,
-      select = c(
-        ordem,
-        data_entrada,
-        municipio,
-        decreto_nr,
-        decreto_data,
-        decreto_vigencia,
-        vencimento,
-        desastre,
-        lat,
-        lon,
-        icon_df,
-        image_df
-      )
+           select = c(
+             ordem,
+             data_entrada,
+             municipio,
+             decreto_nr,
+             decreto_data,
+             decreto_vigencia,
+             vencimento,
+             desastre,
+             lat,
+             lon,
+             icon_df,
+             image_df
+           )
     )
 
 
-  tab_comp_c <- rbind(tab_comp_c, tabela_temp_c, tabela_temp_c2)
+  # tab_comp_c <- rbind(tab_comp_c, tabela_temp_c, tabela_temp_c2)
+  tab_comp_c <- rbind(tab_comp_c, tabela_temp_c2)
 
   format_date_atu <- function(string){
 
