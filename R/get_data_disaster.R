@@ -20,9 +20,10 @@ scrape_disaster <- function(u){
     xml2::xml_find_all(xpath = "//p") |>
     xml2::xml_text() |>
     stringr::str_subset("Atualização") |>
-    stringr::str_extract("\\d{2}.+?\\d{4}") |>
-    base::as.Date(x = _, format = "%d%b%Y") |>
-    base::format(x = _,  format = "%d/%m/%Y")
+    stringr::str_extract("\\d{2}.+?\\d{4}") #|>
+    # base::as.Date(x = _, format = "%d%b%Y") |>
+    # base::format(x = _,  format = "%d/%m/%Y") |>
+    # as.character()
 
   tabelas <- httr::content(r) |>
     xml2::xml_find_all("//table") |>
