@@ -3,10 +3,6 @@ pkgload::load_all()
 
 pak::pkg_install("curso-r/munifacil")
 
-if (Sys.getlocale("LC_TIME") != "pt_BR.UTF-8") {
-  Sys.setlocale("LC_TIME","pt_BR.UTF-8")
-}
-
 df_disaster <- get_data_disaster()
 
 # exportar csv
