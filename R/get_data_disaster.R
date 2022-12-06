@@ -20,7 +20,9 @@ scrape_disaster <- function(u){
     xml2::xml_find_all(xpath = "//p") |>
     xml2::xml_text() |>
     stringr::str_subset("Atualização") |>
-    stringr::str_extract("\\d{2}.+?\\d{4}")
+    stringr::str_extract("\\d{2}.+?\\d{4}") |>
+    base::as.Date(x = _, format = "%d%b%Y") |>
+    base::format(x = _,  format = "%d/%m/%Y")
 
   tabelas <- httr::content(r) |>
     xml2::xml_find_all("//table") |>
@@ -148,7 +150,7 @@ scrape_disaster <- function(u){
     dplyr::left_join(coords, by = "id_municipio") |>
     transform(
       image_df = paste0("images/", tolower(substr(icon_df, 1, 4)), ".png"),
-      data_entrada = format(as.Date(dt_atu, "%d%b%Y"), format = "%d/%m/%Y"),
+      data_entrada = dt_atu,
       decreto_nr = NA_character_,
       decreto_data = NA_character_,
       decreto_vigencia = NA_character_,
@@ -174,7 +176,7 @@ scrape_disaster <- function(u){
 
   # tab_comp_c <- rbind(tab_comp_c, tabela_temp_c, tabela_temp_c2)
   tab_comp_c <- rbind(tab_comp_c, tabela_temp_c2) |>
-    dplyr::mutate(dt_atu = format(as.Date(dt_atu, "%d%b%Y"), format = "%d/%m/%Y"))
+    dplyr::mutate(dt_atu = dt_atu)
 
   tab_comp_c
 
