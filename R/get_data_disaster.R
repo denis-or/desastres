@@ -26,7 +26,7 @@ scrape_disaster <- function(u){
       stringr::str_squish() |>
       stringr::str_remove_all("[:punct:]")
 
-    txt <- format(as.Date(txt, "%d%b%Y"), format = "%d de %B %Y")
+    txt <- format(as.Date(txt, "%d%b%Y"), format = "%d de %B de %Y")
 
     txt
   }
@@ -167,7 +167,7 @@ scrape_disaster <- function(u){
     dplyr::left_join(coords, by = "id_municipio") |>
     transform(
       image_df = paste0("images/", tolower(substr(icon_df, 1, 4)), ".png"),
-      data_entrada = dt_atu,
+      data_entrada = format(as.Date(dt_atu, "%d de %B de %Y"), format = "%d/%m/%Y"),
       decreto_nr = NA_character_,
       decreto_data = NA_character_,
       decreto_vigencia = NA_character_,
@@ -193,7 +193,7 @@ scrape_disaster <- function(u){
 
   # tab_comp_c <- rbind(tab_comp_c, tabela_temp_c, tabela_temp_c2)
   tab_comp_c <- rbind(tab_comp_c, tabela_temp_c2) |>
-    dplyr::mutate(dt_atu = dt_atu)
+    dplyr::mutate(dt_atu = format(as.Date(dt_atu, "%d de %B de %Y"), format = "%d/%m/%Y"))
 
   # format_date_atu <- function(string){
   #
