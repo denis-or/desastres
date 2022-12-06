@@ -16,19 +16,46 @@ scrape_disaster <- function(u){
     stop("Erro de conexão com o site da Defesa Civil.")
   }
 
+
+  format_date_atu <- function(string){
+
+    inicio <- stringr::str_locate(string, "em")[2]+1
+    fim <- stringr::str_length(string)
+
+    txt <- stringr::str_sub(string, inicio, fim) |>
+      stringr::str_squish() |>
+      stringr::str_remove_all("[:punct:]")
+
+    txt <- format(as.Date(txt, "%d%b%Y"), format = "%d de %B %Y")
+
+    txt
+  }
+
+
+  dt_atu <- httr::content(r) |>
+    xml2::xml_find_all(xpath = "//p") |>
+    xml2::xml_text() |>
+    {\(x) grep("Atualização", x, value = TRUE)}()|>
+    format_date_atu()
+
+
   tabelas <- httr::content(r) |>
     xml2::xml_find_all("//table") |>
     rvest::html_table()
 
-  tabela <- tabelas[[1]]
 
-  tabela <- tabela[-c(1:2),]
+
+  tabela <- tabelas[[1]][-c(1:2),]
 
   colnames(tabela) <- c("ordem","data_entrada","municipio",
                         "decreto_nr","decreto_data", "decreto_vigencia",
                         "vencimento","tipo","desastre")
 
-  coords <- readRDS('inst/br_pts.rds')
+  coords <-
+    readRDS(url(
+      "https://github.com/denis-or/desastres/raw/master/inst/br_pts.rds",
+      "rb"
+    ))
 
   tab_comp <-silence_pls(tabela |>
                            dplyr::mutate(uf = "MG",
@@ -140,7 +167,7 @@ scrape_disaster <- function(u){
     dplyr::left_join(coords, by = "id_municipio") |>
     transform(
       image_df = paste0("images/", tolower(substr(icon_df, 1, 4)), ".png"),
-      data_entrada = '06/01/2022',
+      data_entrada = dt_atu,
       decreto_nr = NA_character_,
       decreto_data = NA_character_,
       decreto_vigencia = NA_character_,
@@ -165,28 +192,29 @@ scrape_disaster <- function(u){
 
 
   # tab_comp_c <- rbind(tab_comp_c, tabela_temp_c, tabela_temp_c2)
-  tab_comp_c <- rbind(tab_comp_c, tabela_temp_c2)
+  tab_comp_c <- rbind(tab_comp_c, tabela_temp_c2) |>
+    dplyr::mutate(dt_atu = dt_atu)
 
-  format_date_atu <- function(string){
-
-    inicio <- stringr::str_locate(string, "em")[2]+1
-    fim <- stringr::str_length(string)
-
-    txt <- stringr::str_sub(string, inicio, fim) |>
-      stringr::str_squish() |>
-      stringr::str_remove_all("[:punct:]")
-
-    txt <- format(as.Date(txt, "%d%b%Y"), format = "%d de %B %Y")
-
-    txt
-  }
-
-
-  tab_comp_c$dt_atu <- httr::content(r) |>
-    xml2::xml_find_all(xpath = ".//p") |>
-    rvest::html_text() |>
-    {\(x) grep("Atualização", x, value = TRUE)}() |>
-    format_date_atu()
+  # format_date_atu <- function(string){
+  #
+  #   inicio <- stringr::str_locate(string, "em")[2]+1
+  #   fim <- stringr::str_length(string)
+  #
+  #   txt <- stringr::str_sub(string, inicio, fim) |>
+  #     stringr::str_squish() |>
+  #     stringr::str_remove_all("[:punct:]")
+  #
+  #   txt <- format(as.Date(txt, "%d%b%Y"), format = "%d de %B %Y")
+  #
+  #   txt
+  # }
+  #
+  #
+  # tab_comp_c$dt_atu <- httr::content(r) |>
+  #   xml2::xml_find_all(xpath = "//p") |>
+  #   xml2::xml_text() |>
+  #   {\(x) grep("Atualização", x, value = TRUE)}()|>
+  #   format_date_atu()
 
   tab_comp_c
 
