@@ -7,7 +7,7 @@ silence_pls <- function(code){
 }
 
 scrape_disaster <- function(u){
-
+  # u <- 'http://www.defesacivil.mg.gov.br/index.php?option=com_content&view=article&id=14'
   user <- 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36'
 
   r <- httr::GET(u, httr::user_agent(user),  httr::config(connecttimeout = 60))
@@ -16,35 +16,30 @@ scrape_disaster <- function(u){
     stop("Erro de conexão com o site da Defesa Civil.")
   }
 
-
-  format_date_atu <- function(string){
-
-    inicio <- stringr::str_locate(string, "em")[2]+1
-    fim <- stringr::str_length(string)
-
-    txt <- stringr::str_sub(string, inicio, fim) |>
-      stringr::str_squish() |>
-      stringr::str_remove_all("[:punct:]")
-
-    txt <- format(as.Date(txt, "%d%b%Y"), format = "%d de %B de %Y")
-
-    txt
-  }
-
+#
+#   format_date_atu <- function(string){
+#
+#     inicio <- stringr::str_locate(string, "em")[2]+1
+#     fim <- stringr::str_length(string)
+#
+#     txt <- stringr::str_sub(string, inicio, fim) |>
+#       stringr::str_squish() |>
+#       stringr::str_remove_all("[:punct:]")
+#
+#     txt <- format(as.Date(txt, "%d%b%Y"), format = "%d de %B de %Y")
+#
+#     txt
+#   }
 
   dt_atu <- httr::content(r) |>
     xml2::xml_find_all(xpath = "//p") |>
     xml2::xml_text() |>
-    {\(x) grep("Atualização", x, value = TRUE)}()
-  # |>
-  #   format_date_atu()
-
+    stringr::str_subset("Atualização") |>
+    stringr::str_extract("\\d{2}.+?\\d{4}")
 
   tabelas <- httr::content(r) |>
     xml2::xml_find_all("//table") |>
     rvest::html_table()
-
-
 
   tabela <- tabelas[[1]][-c(1:2),]
 
