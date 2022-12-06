@@ -23,4 +23,5 @@ Imports:
     rvest,
     xml2,
     stringr,
-    pkgload
+    pkgload,
+    pak
