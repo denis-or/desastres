@@ -6,6 +6,40 @@ silence_pls <- function(code){
     silent = T)
 }
 
+formatar_data <- function(datas){
+
+  dia <- unique(substr(datas,1,2))
+  mes <- unique(substr(datas,3,5))
+  if (mes == "Jan") {
+    mes <- "01"
+  } else if (mes == "Fev"){
+    mes <- "02"
+  } else if (mes == "Mar"){
+    mes <- "03"
+  } else if (mes == "Abr"){
+    mes <- "04"
+  } else if (mes == "Mai"){
+    mes <- "05"
+  } else if (mes == "Jun"){
+    mes <- "06"
+  } else if (mes == "Jul"){
+    mes <- "07"
+  } else if (mes == "Ago"){
+    mes <- "08"
+  } else if (mes == "Set"){
+    mes <- "09"
+  } else if (mes == "Out"){
+    mes <- "10"
+  } else if (mes == "Nov"){
+    mes <- "11"
+  } else if (mes == "Dez"){
+    mes <- "12"
+  }
+  ano <- unique(substr(datas,6,9))
+  txt <- paste0(dia,"/",mes,"/",ano)
+  txt
+}
+
 scrape_disaster <- function(u){
   # u <- 'http://www.defesacivil.mg.gov.br/index.php?option=com_content&view=article&id=14'
   user <- 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36'
@@ -16,14 +50,13 @@ scrape_disaster <- function(u){
     stop("Erro de conexão com o site da Defesa Civil.")
   }
 
+
   dt_atu <- httr::content(r) |>
     xml2::xml_find_all(xpath = "//p") |>
     xml2::xml_text() |>
     stringr::str_subset("Atualização") |>
-    stringr::str_extract("\\d{2}.+?\\d{4}") #|>
-    # base::as.Date(x = _, format = "%d%b%Y") #|>
-    # # base::format(x = _,  format = "%d/%m/%Y") |>
-    # as.character()
+    stringr::str_extract("\\d{2}.+?\\d{4}") |>
+    formatar_data()
 
   tabelas <- httr::content(r) |>
     xml2::xml_find_all("//table") |>
